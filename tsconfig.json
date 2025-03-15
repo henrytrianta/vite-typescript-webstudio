@@ -1,0 +1,15 @@
+{
+	"extends": "@tsconfig/strictest/tsconfig.json",
+	"compilerOptions": {
+		"moduleResolution": "node",
+		"target": "ES2015",
+		"esModuleInterop": true,
+		"isolatedModules": true,
+		"baseUrl": "src",
+		"paths": {
+			"@/*": ["*"]
+		}
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "dist"]
+}

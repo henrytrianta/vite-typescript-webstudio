@@ -1,0 +1,25 @@
+{
+	"name": "vite-typescript-webstudio",
+	"version": "0.0.1",
+	"description": "A tool for local JavaScript development in Webstudio, enabling real-time bundling, debugging, and seamless integration with the HTML embed editor.",
+	"type": "module",
+	"scripts": {
+		"dev": "vite build --watch",
+		"build": "vite build",
+		"lint": "biome lint --write --unsafe --no-errors-on-unmatched",
+		"format": "biome format --write --no-errors-on-unmatched"
+	},
+	"keywords": ["webstudio", "wstd", "vite"],
+	"author": "Henry Trianta <henry.trianta@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@tsconfig/strictest": "^2.0.5",
+		"typescript": "5.8.2",
+		"vite": "^6.2.1",
+		"vite-live-preview": "^0.3.2"
+	},
+	"dependencies": {
+		"gsap": "^3.12.7"
+	}
+}
